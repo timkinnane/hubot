@@ -37,6 +37,7 @@ class Logger
 		Log.headingStyle = { fg: 'magenta', bg: 'black' }
 		Log.addLevel('debug', 1000, { fg: 'yellow', bg: 'black' }, 'dbug')
 		Log.addLevel('error', 5000, { fg: 'white', bg: 'red' }, 'ERR!')
+		@log = Log
 	prefix: () ->
 		d = new Date()
 		return d.toLocaleString()
