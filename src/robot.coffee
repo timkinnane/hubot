@@ -34,8 +34,8 @@ class Logger
 	constructor: (level) ->
 		Log.level = level
 		Log.heading = '[hubot]'
-		Log.headingStyle = { fg: 'magenta', bg: 'black' }
-		Log.addLevel('debug', 1000, { fg: 'yellow', bg: 'black' }, 'dbug')
+		Log.headingStyle = { fg: 'magenta' }
+		Log.addLevel('debug', 1000, { fg: 'yellow' }, 'dbug')
 		Log.addLevel('error', 5000, { fg: 'white', bg: 'red' }, 'ERR!')
 		@log = Log
 	prefix: () ->
