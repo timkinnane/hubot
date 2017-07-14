@@ -1,7 +1,7 @@
 {
-  "name": "hubot",
+  "name": "hubot-async",
   "version": "2.19.0",
-  "author": "hubot",
+  "author": "timkinnane",
   "keywords": [
     "github",
     "hubot",
