@@ -1,13 +1,13 @@
 {
-  "name": "hubot",
-  "version": "0.0.0-development",
+  "name": "hubot-async",
+  "version": "3.0.1-async",
   "standard": {
      "env": [ "mocha" ]
   },
   "publishConfig": {
     "tag": "next"
   },
-  "author": "hubot",
+  "author": "timkinnane",
   "keywords": [
     "github",
     "hubot",
